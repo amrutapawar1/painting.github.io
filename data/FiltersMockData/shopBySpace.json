@@ -1,0 +1,42 @@
+[
+  {
+    "code": "living",
+    "label": "Living",
+    "qty": 10
+  },
+  {
+    "code": "dining",
+    "label": "Dining",
+    "qty": 10
+  },
+  {
+    "code": "bedroom",
+    "label": "Bedroom",
+    "qty": 10
+  },
+  {
+    "code": "workspace",
+    "label": "Workspace",
+    "qty": 10
+  },
+  {
+    "code": "kids",
+    "label": "Kids",
+    "qty": 10
+  },
+  {
+    "code": "cafe-restaurant",
+    "label": "Cafe/Restaurant",
+    "qty": 10
+  },
+  {
+    "code": "washroom",
+    "label": "Washroom",
+    "qty": 10
+  },
+  {
+    "code": "den-lounge",
+    "label": "Den/Lounge",
+    "qty": 10
+  }
+]

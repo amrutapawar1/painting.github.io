@@ -1,0 +1,68 @@
+:root {
+    font-size: 1rem;
+    /* 640px */
+    --small-breakpoint: 40rem;
+    /* 1024px */
+    --medium-breakpoint: 64rem;
+    /* 1200px */
+    --xmedium-breakpoint: 75rem;
+    /* 1440px */
+    --large-breakpoint: 90rem;
+    /* 1920px */
+    --xlarge-breakpoint: 120rem;
+
+    --small-range-start: 0;
+    --small-range-end: var(--small-breakpoint);
+
+    --medium-range-start: calc(var(--small-breakpoint) + 1rem);
+    --medium-range-end: var(--medium-breakpoint);
+
+    --xmedium-range-start: calc(var(--small-breakpoint) + 1rem);
+    --xmedium-range-end: var(--xmedium-breakpoint);
+
+    --large-range-start: calc(var(--medium-breakpoint) + 1rem);
+    --large-range-end: var(--large-breakpoint);
+
+    --xlarge-range-start: calc(var(--large-breakpoint) + 1rem);
+    --xlarge-range-end: var(--xlarge-breakpoint);
+
+    --xxlarge-range-start: calc(var(--xlarge-breakpoint) + 1rem);
+    --xxlarge-range-end: 99999999rem;
+
+    --screen: only screen;
+    --landscape: var(--screen) and (orientation: landscape);
+    --portrait: var(--screen) and (orientation: portrait);
+
+    --small-up: var(--screen);
+
+    /* 0 - 641px */
+    --small-only: var(--screen) and (max-width: var(--small-range-end));
+
+    /* 0 - 1024px */
+    --up-to-medium: var(--screen) and (max-width: var(--medium-range-end));
+
+    /* 641px - * */
+    --medium-up: var(--screen) and (min-width: var(--medium-range-start));
+
+    /* 641px - 1024px */
+    --medium-only: var(--screen) and (min-width: var(--medium-range-start)) and (max-width: var(--medium-range-end));
+
+    /* 641px - 1200px */
+    --xmedium-only: var(--screen) and (min-width: var(--xmedium-range-start)) and (max-width: var(--xmedium-range-end));
+
+    /* 1025px - * */
+    --large-up: var(--screen) and (min-width: var(--large-range-start));
+
+    /* 1025px - 1440px */
+    --large-only: var(--screen) and (min-width: var(--large-range-start)) and (max-width: var(--large-range-end));
+
+    /* 1441px - * */
+    --xlarge-up: var(--screen) and (min-width: var(--xlarge-range-start));
+
+    /* 1441px - 1920px */
+    --xlarge-only: var(--screen) and (min-width: var(--xlarge-range-start)) and (max-width: var(--xlarge-range-end));
+
+    /* 1921px - * */
+    --xxlarge-up: var(--screen) and (min-width: var(--xxlarge-range-start));
+    --xxlarge-only: var(--screen) and (min-width: var(--xxlarge-range-start)) and (max-width: var(--xxlarge-range-end));
+}

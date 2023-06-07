@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "/pro13.webp",
+    "title": "Primping Art",
+    "price": 1899.00
+  },
+  {
+    "id": 2,
+    "image": "/pro9.webp",
+    "title": "Peacocks Madhubani Art",
+    "price": 1899.00
+  },
+  {
+    "id": 3,
+    "image": "/pro12.webp",
+    "title": "Indian Women Madhubani Art",
+    "price": 1899.00
+  },
+  {
+    "id": 4,
+    "image": "/pro11.webp",
+    "title": "Shrinath Ji (Shri Krishna) Pichwai Art",
+    "price": 1899.00
+  },
+  {
+    "id": 5,
+    "image": "/pro15.webp",
+    "title": "The Jagannath Darbar Pattachitra Art",
+    "price": 1899.00
+  },
+  {
+    "id": 6,
+    "image": "/pro10.webp",
+    "title": "Krishna & Radha Pichwai Art ",
+    "price": 1899.00
+  },
+  {
+    "id": 7,
+    "image": "/pro14.webp",
+    "title": "The Saviour Ganpati Artwork Pattachitra Art ",
+    "price": 1899.00
+  },
+  {
+    "id": 8,
+    "image": "/pro7.webp",
+    "title": "Shrinath Ji (Shri Krishna) Durbar Darshan Pichwai Art ",
+    "price": 1899.00
+  },
+  {
+    "id": 9,
+    "image": "/pro8.webp",
+    "title": "Krishna and Radha Madhubani Art",
+    "price": 1899.00
+  },
+  {
+    "id": 10,
+    "image": "/pro16.webp",
+    "title": "Cow and Lotus Pichwai Art",
+    "price": 1899.00
+  },
+  {
+    "id": 11,
+    "image": "/pro11.webp",
+    "title": "Ragini Woman Dancing Pichwai Art",
+    "price": 1899.00
+  },
+  {
+    "id": 12,
+    "image": "/pro17.webp",
+    "title": "Lotus Pichwai Art",
+    "price": 1899.00
+  }
+]

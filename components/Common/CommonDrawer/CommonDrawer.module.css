@@ -1,0 +1,4 @@
+.drawer{
+    height:-webkit-fill-available;
+    overflow-x: hidden;
+}

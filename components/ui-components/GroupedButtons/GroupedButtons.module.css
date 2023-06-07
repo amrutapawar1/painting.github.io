@@ -1,0 +1,30 @@
+.input {
+    text-align: center;
+    width: 40px;
+    border: unset;
+    color: var(--gray-3);
+    background: transparent;
+}
+
+.button {
+    color: var(--gray-3);
+    background-color: var(--white);
+    border-color: var(--gray-3);
+    background: transparent;
+}
+
+.button:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+    .input {
+        width: 15px;
+        border: unset;
+    }
+
+    .button {
+        width: 25px;
+    }
+}

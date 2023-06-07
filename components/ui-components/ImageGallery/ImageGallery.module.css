@@ -1,0 +1,38 @@
+.product_thumb_selected {
+    cursor: pointer;
+    padding: var(--spacing-2);
+    width: 55px;
+    height: 55px;
+}
+
+.image_section {
+    border: 2px solid var(--primary);
+    border-radius: 100%;
+    margin-bottom: var(--spacing-1);
+    width: 60px;
+    height: 60px;
+}
+
+.product_thumb {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.product_thumb:hover {
+    border: 2px solid;
+}
+
+.image_Gallery_Style {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+    .image_Gallery_Style {
+        width: 238px;
+        height: 200px;
+    }
+}

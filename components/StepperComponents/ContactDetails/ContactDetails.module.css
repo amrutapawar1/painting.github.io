@@ -1,0 +1,17 @@
+.input{
+    width: 100%;
+    padding: var(--spacing-2);
+    box-sizing: border-box;
+    border-radius: var(--spacing-1);
+    border: 1px solid var(--light-gray);
+}
+.heading{
+    font-size:var(--fs-body);
+    font-family:var(--ff-sans-serif);
+    font-weight:var(--fw-heading)
+}
+.sub_heading{
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+}

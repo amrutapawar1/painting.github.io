@@ -1,0 +1,13 @@
+.container {
+    padding-bottom: var(--spacing-1);
+    width: 90%;
+}
+
+.slider {
+    padding: var(--spacing-1);
+    margin-top: 0;
+}
+
+.price_Style {
+    font-size: var(--fs-caption);
+}

@@ -1,0 +1,82 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  text-Align: center;
+}
+
+.footerHeading {
+  font-family: var(--ff-sans-serif);
+  font-weight: var(--fw-heading);
+  font-size: var(--fs-body);
+  margin-bottom: var(--spacing-1);
+  margin-top: var(--spacing-1);
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--heading-color);
+  letter-spacing: 2px;
+}
+
+.footerLink {
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-caption);
+  color: var(--caption-color);
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: var(--spacing-1);
+}
+
+.footerSubtitle {
+  font-size: var(--fs-caption);
+  font-family: var(--ff-monospace);
+  font-weight: var(--fw-caption);
+  color: var(--caption-color);
+}
+
+.iconBox {
+  color: var(--primary);
+  padding: var(--spacing-1);
+  margin-right: var(--spacing-1);
+  align-items: center;
+  display: flex;
+  margin-top: var(--spacing-1);
+}
+
+.myBtn {
+  position: fixed;
+  bottom: var(--spacing-6);
+  right: var(--spacing-3);
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: var(--primary);
+  cursor: pointer;
+  padding: var(--spacing-2);
+  border-radius: 10px;
+  font-size: var(--fs-body);
+}
+
+.myBtn:hover {
+  color: var(--error);
+}
+
+.footer_container {
+  padding-bottom: var(--spacing-4);
+  background-color: var(--white);
+  justify-content: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 641px) {
+  .footer_container {
+    display: none;
+  }
+}

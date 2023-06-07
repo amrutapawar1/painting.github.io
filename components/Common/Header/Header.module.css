@@ -1,0 +1,149 @@
+.appbar {
+    box-shadow: none;
+    position: sticky;
+    background-color: var(--white);
+    padding: 0 !important;
+}
+
+.box1 {
+    flex-grow: 1;
+    display: flex;
+    position: absolute;
+}
+
+.menuStyle {
+    color: var(--black);
+    justify-content: right;
+}
+
+.mobileViewBox {
+    display: none;
+}
+
+.box2 {
+    flex-grow: 1;
+    justify-content: left;
+    align-content: center;
+}
+
+.menu {
+    text-transform: uppercase;
+    color: var(--white);
+    width: 800em;
+}
+
+.menuItem {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-title);
+    font-family: var(--ff-title);
+    color: var(--black);
+}
+
+.menuItem:hover {
+    color: var(--caption-color);
+}
+
+.searchIcon {
+    cursor: pointer;
+    color: var(--white);
+    margin-right: var(--spacing-2);
+}
+
+.categoryImgBar {
+    color: var(--black);
+}
+
+.searchBoxStyle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btnStyle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--black);
+}
+
+.headerMenuCaption {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-heading);
+    color: var(--black);
+}
+
+.logoStyling {
+    width: 100px;
+    height: 60px;
+}
+
+.drawerHeading {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-title);
+    color: var(--black);
+    letter-spacing: .3px;
+}
+
+.drawerTitle {
+    letter-spacing: .2px;
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-subtitle);
+}
+
+.drawerSubtitle {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-subtitle);
+    color: var(--gray-3);
+}
+
+.signup_img {
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 641px) {
+    .searchBoxStyle {
+        display: none;
+    }
+
+    .signup_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logoStyling {
+        width: 60px;
+        height: 50px;
+    }
+
+    .mobileViewBox {
+        display: block;
+        align-self: center;
+        display: flex;
+        right: 20px;
+        width: 100%;
+    }
+
+    .box1 {
+        position: inherit;
+        right: 0;
+    }
+
+    .box2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 1440px) {
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: flex;
+    }
+
+    .mobileViewBox {
+        display: none;
+    }
+}

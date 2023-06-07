@@ -1,0 +1,52 @@
+[
+  {
+    "code": "all",
+    "label": "All Art Prints",
+    "qty": 10
+  },
+  {
+    "code": "new",
+    "label": "New Arrivals",
+    "qty": 10
+  },
+  {
+    "code": "abstract",
+    "label": "Abstract",
+    "qty": 10
+  },
+  {
+    "code": "black-white",
+    "label": "Black & White",
+    "qty": 10
+  },
+  {
+    "code": "scandinavian",
+    "label": "Scandinavian",
+    "qty": 10
+  },
+  {
+    "code": "nature",
+    "label": "Nature",
+    "qty": 10
+  },
+  {
+    "code": "traditional",
+    "label": "Traditional",
+    "qty": 10
+  },
+  {
+    "code": "vintage",
+    "label": "Vintage",
+    "qty": 10
+  },
+  {
+    "code": "popart",
+    "label": "Pop Art",
+    "qty": 10
+  },
+  {
+    "code": "kids",
+    "label": "Kids",
+    "qty": 10
+  }
+]

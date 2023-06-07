@@ -1,0 +1,82 @@
+.container {
+    padding: var(--spacing-1) var(--spacing-4);
+}
+
+.sub_container {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.sub_container::-webkit-Scrollbar {
+    display: none;
+}
+
+.stepper_container {
+    position: sticky;
+    top: var(--spacing-6);
+    background-color: var(--white);
+    z-index: 1000;
+    margin-left: var(--spacing-2);
+}
+
+.stepper_buttons_desktopView {
+    display: block;
+}
+
+.stepper_buttons_mobileView {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .stepper_buttons_mobileView {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .stepper_buttons_desktopView {
+        display: none;
+    }
+
+    .sub_container {
+        height: auto;
+    }
+}
+
+.back_button {
+    margin-right: var(--spacing-1);
+    color: var(--black);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    background-color: var(--white);
+}
+
+.label {
+    font-size: var(--fs-caption);
+}
+
+.label.Mui-active {
+    color: var(--error);
+}
+
+.step_icon {
+    display: none;
+}
+
+.right_icon {
+    font-size: var(--fs-body);
+    color: var(--primary);
+}
+
+.next_button {
+    color: var(--white);
+    background-color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+}

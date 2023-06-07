@@ -1,0 +1,18 @@
+:root {
+    --primary: #7E6B8F;
+    --secondary: #96E6B3;
+    --tertiary: #F2E94E;
+    --error: #DA3E52;
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #A3D9FF;
+    --green: #228B22;
+    --light-gray: #e0e0e0;
+    --light-gray-2: #f7f7f7;
+    --gray-1: #444444;
+    --gray-2: #666;
+    --gray-3: #686b6a;
+    --heading-color: #2a2c2f;
+    --sub-title-color: #333333;
+    --caption-color: #454545;
+}

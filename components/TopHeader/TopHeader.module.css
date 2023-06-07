@@ -1,0 +1,32 @@
+.appbarStyle {
+    background-color: var(--primary);
+    color: var(--white);
+    padding-left: var(--spacing-2);
+    position: static;
+}
+
+.gridContainer {
+    align-items: center;
+    padding: var(--spacing-2);
+}
+
+.searchStyle {
+    display: flex;
+}
+
+.btn {
+    color: var(--white);
+    cursor: pointer;
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-subtitle);
+    font-family: var(--ff-sans-serif);
+}
+
+.searchIcon {
+    cursor: pointer;
+}
+
+.searchInputStyle {
+    color: var(--white);
+    width: 60%;
+}

@@ -1,0 +1,28 @@
+.box {
+    margin: 2rem 0rem;
+}
+.typography {
+    color: var(--gray-3);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-caption);
+}
+
+.title {
+    color: #444444;
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-heading);
+    text-transform: uppercase;
+}
+
+.sub_title {
+    color: var(--gray-3);
+}
+
+.grid_container {
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.write_review {
+    align-self: self-end;
+    text-align: end;
+}

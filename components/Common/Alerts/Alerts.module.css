@@ -1,0 +1,9 @@
+.alert_message {
+    font-size: var(--fs-body);
+}
+
+.alert_icon {
+    font-size: var(--fs-body);
+    cursor: pointer;
+    margin: 0 10px;
+}

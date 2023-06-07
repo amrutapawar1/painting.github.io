@@ -1,0 +1,8 @@
+.grid1 {
+    padding: var(--spacing-6);
+}
+
+.subContainer {
+    margin-bottom: var(--spacing-3);
+    text-align: center;
+}

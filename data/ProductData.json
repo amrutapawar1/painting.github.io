@@ -1,0 +1,42 @@
+[
+    {
+        "image": "pro1.jpg",
+        "title": "Auspicious Tree of Life Madhubani Art Painting",
+        "price": 4248,
+        "alt": "green iguana",
+        "discountedPrice": 1699,
+        "discountPercentage": "save 20%",
+        "brand": "Collection | By TheBimba",
+        "description":"The Incarnations of Ganesh/Ganpati Artwork Pattachitra Art Painting For Home Wall Art",
+        "quantity":"500",
+        "print": ["Canvas", "Archival Paper"],
+        "frame_color":["Black","Brown","Gold","UnFramed"],
+        "size":[
+            {
+                "id":1,
+                "label":"Small",
+                "size":"14.5 X 14.5"
+            },
+            {
+                "id":2,
+                "label":"Medium1",
+                "size":"17.5 X 17.5"
+            },
+            {
+                "id":3,
+                "label":"Medium2",
+                "size":"19 X 19"
+            },
+            {
+                "id":4,
+                "label":"Large",
+                "size":"24.5 X 24.5"
+            },
+            {
+                "id":5,
+                "label":"E.Large",
+                "size":"27.5 X 27.5"
+            }
+        ]
+    }
+]

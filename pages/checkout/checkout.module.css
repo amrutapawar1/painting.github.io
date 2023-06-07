@@ -1,0 +1,116 @@
+.card_container {
+    padding: var(--spacing-3);
+    background-color: var(--light-gray-2);
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.product_detail {
+    color: var(--sub-title-color);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.parent_container {
+    overflow-y: scroll;
+    padding: var(--spacing-3);
+    height: 550px;
+    margin-bottom: var(--spacing-2);
+}
+
+.product_detail {
+    color: var(--sub-title-color);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.footerContainer {
+    padding: var(--spacing-3);
+}
+
+.parent_container::-webkit-scrollbar {
+    display: none;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+
+.footer_text {
+    color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.header_title {
+    color: var(--primary);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-heading);
+    display: block;
+    margin-bottom: var(--spacing-1);
+}
+
+.empty_cart_text {
+    color: var(--caption-color);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.shop_btn {
+    border-color: var(--primary);
+    color: var(--white);
+    margin-right: var(--spacing-1);
+    background-color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    box-shadow: none;
+    text-transform: uppercase;
+    margin-top: var(--spacing-2);
+}
+
+.shop_btn:hover {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    margin-right: var(--spacing-1);
+    background-color: var(--white);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    box-shadow: none;
+}
+
+.checkout_btn {
+    background-color: var(--white);
+    color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    box-shadow: none;
+}
+
+.checkout_btn:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    box-shadow: none;
+}
+.empty_text{
+    padding: var(--spacing-3);
+    text-align:center;
+    justify-content:center;
+}
+ @media only screen and (max-width: 600px) {
+    .parent_container{
+        display:none;
+    }   
+    .empty_text{
+        display:none;
+    }
+} 

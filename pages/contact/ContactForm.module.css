@@ -1,0 +1,77 @@
+.title {
+    font-family: var(--ff-cursive);
+    font-size: var(--fs-title);
+    font-weight: var(--fw-heading);
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    margin-top: var(--spacing-1);
+}
+
+.subTitle {
+    display: block;
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-body);
+    color: var(--caption-color);
+    letter-spacing: .03em;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-1);
+    cursor: pointer;
+}
+
+.reviewStyle {
+    font-size: var(--fs-title);
+    line-height: 1.75;
+    color: var(--heading-color);
+    font-weight: var(--fw-subtitle);
+    letter-spacing: 4px;
+    font-family: var(--ff-cursive);
+    margin-bottom: var(--spacing-1);
+    text-align: center;
+}
+
+.input {
+    color: var(--heading-color);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-subtitle);
+    font-family: var(--ff-monospace);
+    margin-bottom: var(--spacing-1);
+    margin-top: var(--spacing-1);
+}
+
+.field {
+    border: 3px var(--heading-color);
+}
+
+.btn {
+    border-color: var(--heading-color);
+    color: var(--heading-color);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-subtitle);
+    font-family: var(--ff-monospace);
+    margin-right: var(--spacing-2);
+    margin-top: var(--spacing-1);
+    border-radius: 0px;
+}
+
+.btn:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.infoTitle {
+    color: var(--primary);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-title);
+}
+
+
+.icon {
+    color: var(--primary);
+    font-size: var(--fs-body);
+}
+
+.mapContainer {
+    height: 50vh;
+    width: 100%;
+}

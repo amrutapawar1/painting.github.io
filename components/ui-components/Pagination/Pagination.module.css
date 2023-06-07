@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  /* margin: 5px; */
+  border: none;
+  font-size: var(--fs-caption);
+  border-radius: 3px;
+  color: var(--black);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--primary);
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.active {
+  background-color: var(--primary);
+  color: var(--black);
+}

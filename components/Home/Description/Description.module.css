@@ -1,0 +1,24 @@
+.grid1{
+    padding: 50px;
+}
+.subContainer{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.para{
+    text-align:justify;
+}
+.image{
+   position: relative;
+   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .image{
+        height: 55.55vh;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .image{
+        height: 33.33vw;
+    }
+}

@@ -1,0 +1,34 @@
+.boxStyling {
+    background-color: var(--white);
+    padding: var(--spacing-2);
+}
+
+.title {
+    color: var(--heading-color);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-title);
+}
+
+.subTitle {
+    color: var(--caption-color);
+    font-size: var(--fs-caption);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+}
+
+.btn {
+    color: var(--error);
+    font-size: var(--fs-caption);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-title);
+    border: 2px var(--heading-color);
+}
+
+.btn:hover {
+    border: 2px var(--error);
+}
+
+.linkBox {
+    padding-top: var(--spacing-2);
+}

@@ -1,0 +1,112 @@
+.clear_icon {
+    position: absolute;
+    right: var(--spacing-1);
+    top: var(--spacing-1);
+    padding: 0;
+    font-size: var(--fs-body);
+    color: var(--gray-2);
+    font-family: var(--ff-sans-serif);
+}
+
+.header_text_section {
+    background-color: var(--white);
+    padding: var(--spacing-2);
+}
+
+.header_title {
+    color: var(--primary);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-heading);
+    display: block;
+    margin-bottom: var(--spacing-2);
+    margin-top: var(--spacing-2);
+}
+
+.divider_container {
+    margin-bottom: var(--spacing-2);
+    background-color: var(--light-gray-2);
+    margin-right: var(--spacing-2);
+}
+
+.divider {
+    height: 4px;
+    width: 50%;
+    background-color: var(--primary);
+}
+
+.footer {
+    position: sticky;
+    top: auto;
+    bottom: 0;
+    z-index: 1100;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title {
+    color: var(--primary);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-heading);
+    display: block;
+    margin-bottom: var(--spacing-1);
+}
+
+.shop_btn {
+    color: var(--white);
+    background-color: var(--primary);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-caption);
+    box-shadow: none;
+    text-transform: uppercase;
+    margin-top: var(--spacing-2);
+}
+
+.shop_btn:hover {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: var(--white);
+    box-shadow: none;
+}
+
+.empty_cart_text {
+    color: var(--caption-color);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.parent_container {
+    overflow-y: scroll;
+    padding: var(--spacing-2);
+}
+
+.parent_container::-webkit-scrollbar {
+    display: none;
+}
+
+.product_detail {
+    color: var(--sub-title-color);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-caption);
+    font-size: var(--fs-caption);
+}
+
+.card_container {
+    padding: 1.2rem 0.7rem;
+    background-color: var(--light-gray-2);
+    margin-bottom: var(--spacing-1);
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 641px) {
+    .shop_btn {
+        font-size: var(--fs-caption-2);
+    }
+}

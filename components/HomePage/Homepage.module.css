@@ -1,0 +1,620 @@
+.title {
+    font-family: var(--ff-cursive);
+    font-size: var(--fs-title);
+    font-weight: var(--fw-heading);
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    margin-top: var(--spacing-1);
+    text-align: center;
+}
+
+.bannerContainer {
+    align-items: center;
+    background-image: url("./images/Bannerbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 840px;
+    text-align: center;
+    background-position: center;
+}
+
+.bannerHeading {
+    margin-bottom: var(--spacing-1);
+    letter-spacing: 0.3rem;
+    font-size: var(--fs-sub-title);
+    font-family: var(--ff-monospace);
+    color: var(--sub-title-color);
+}
+
+.bannerTitle {
+    letter-spacing: 0.4rem;
+    line-height: 4rem;
+    font-size: var(--fs-heading);
+    font-family: var(--ff-cursive);
+    margin-bottom: var(--spacing-2);
+    font-weight: var(--fw-heading);
+    text-align: center;
+    color: var(--heading-color);
+}
+
+.bannerSubtitle {
+    display: block;
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-body);
+    color: var(--caption-color);
+    letter-spacing: .03em;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-2);
+}
+
+.bannerShopBtn {
+    background-color: var(--primary);
+    color: var(--white);
+    font-family: var(--ff-sans-serif);
+    font-family: var(--ff-monospace);
+    font-size: var(--fs-body);
+    box-shadow: none;
+    margin-top: var(--spacing-2);
+}
+
+.bannerShopBtn:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    box-shadow: none;
+}
+
+.communityTitle {
+    padding-bottom: var(--spacing-6);
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-subtitle);
+    letter-spacing: .05em;
+}
+
+.communityBtn {
+    color: var(--primary);
+    border-color: var(--primary);
+    font-weight: var(--fw-body);
+}
+
+.communityBtn:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.categoryImgBar {
+    margin: var(--spacing-4);
+    background-color: var(--light-gray);
+    padding: var(--spacing-1);
+    text-align: center;
+}
+
+.categoryImgBar_content_container {
+    color: var(--black);
+}
+
+.NewsBox {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10rem;
+    margin-top: var(--spacing-4);
+}
+
+.NewsImg {
+    transition: opacity .35s ease-in-out;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.NewsCard {
+    top: 15rem;
+    left: 12rem;
+    width: 300px;
+    position: relative;
+    margin-bottom: -13rem;
+    padding: var(--spacing-4);
+    background-color: var(--white);
+    color: var(--caption-color);
+    box-shadow: none;
+}
+
+.NewsTitle {
+    color: var(--heading-color);
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-caption);
+    text-align: left;
+}
+
+.NewsBtn {
+    padding: var(--spacing-1);
+    font-size: var(--fs-body);
+}
+
+.productTitleBox {
+    justify-content: center;
+    margin-bottom: var(--spacing-6);
+    font-family: var(--ff-cursive);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-title);
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.productTitleLink {
+    outline: none;
+    text-decoration: none;
+    color: var(--gray);
+    margin-right: var(--spacing-2);
+    font-size: var(--fs-title);
+    opacity: 0.8;
+    cursor: pointer;
+    font-weight: var(--fw-caption);
+
+}
+
+.productTitleLinkActive {
+    outline: none;
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--fs-title);
+    opacity: 0.8;
+    cursor: pointer;
+    font-weight: var(--fw-title);
+}
+
+.productImg {
+    width: -webkit-fill-available;
+    height: 70%;
+}
+
+.recycleHeading {
+    margin-top: var(--spacing-6);
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-heading);
+    color: var(--primary-color);
+}
+
+
+.recycleCard {
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+
+.recycleImg {
+    height: 75px;
+    width: 75px;
+    background-color: transparent;
+    filter: grayscale(1);
+    transition: all .6s ease-out;
+}
+
+.recycleImg:hover {
+    background-color: none;
+    filter: none;
+    transition: none;
+}
+
+.recycleTitle {
+    margin-bottom: 0.71423em;
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-heading);
+}
+
+.recycleSubtitle {
+    margin-bottom: var(--spacing-6);
+    font-size: var(--fs-body);
+    line-height: 1.5;
+}
+
+/* section 9 style */
+.shippingContainer {
+    text-align: left;
+    color: var(--white);
+    height: 300px;
+    padding-left: var(--spacing-4);
+    background-color: var(--primary);
+}
+
+.shippingBox {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.text {
+    color: var(--white);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    padding-left: var(--spacing-1);
+}
+
+.icons {
+    font-size: var(--fs-heading);
+}
+
+.Shippingicons {
+    transform: scaleX(-1);
+    font-size: var(--fs-heading);
+}
+
+.shippingSubtitle {
+    font-size: var(--fs-body);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-left: var(--spacing-2);
+    color: var(--white);
+}
+
+.categoryImgBar_title {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-heading);
+}
+
+.Exchangetext {
+    color: var(--white);
+    font-size: var(--fs-body);
+    font-family: var(--ff-sans-serif);
+    padding-left: var(--spacing-1);
+}
+
+/* Recycle Section style */
+.recycleContainer {
+    background-color: var(--light-gray);
+}
+
+.signupContainer {
+    background-color: var(--primary);
+    height: 600px;
+    align-items: center;
+    margin-bottom: var(--spacing-6);
+}
+
+.productTitleDropdown {
+    display: none;
+}
+
+.signupDivider {
+    rotate: 90deg;
+    border-color: var(--white);
+    border-bottom-width: 1px;
+}
+
+.right_icon {
+    color: var(--primary);
+}
+
+.signupText {
+    font-size: var(--fs-title);
+    letter-spacing: 3px;
+    line-height: 45px;
+    color: var(--white);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-subtitle);
+}
+
+.mailStyling {
+    color: var(--white);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-heading);
+    font-family: var(--ff-monospace);
+    margin-bottom: var(--spacing-2);
+    letter-spacing: .2rem;
+    border-color: var(--white);
+}
+
+.mailBoxStyle {
+    background: var(--white);
+    border-radius: 5px;
+    width: 80%;
+    border-color: none;
+}
+
+.text2 {
+    color: var(--white);
+    font-size: var(--fs-body);
+    line-height: 28pt;
+    font-family: Helvetica;
+}
+
+.text3 {
+    color: var(--white);
+    font-size: var(--fs-body);
+    font-family: Helvetica;
+}
+
+.signupEmailTitle {
+    color: var(--white);
+    font-size: var(--fs-body);
+    letter-spacing: .3em;
+    font-weight: var(--fw-title);
+    margin-bottom: var(--spacing-2);
+}
+
+.signupInputBox {
+    width: 60%;
+    height: 50px;
+    background-color: var(--white);
+}
+
+.signupDivider {
+    border-color: var(--white);
+    display: flex;
+}
+
+.bannerBox {
+    margin: var(--spacing-4);
+}
+
+.categoryImageStyling {
+    height: 300px;
+    padding: var(--spacing-2);
+}
+
+.product_section_container {
+    padding: var(--spacing-2);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+    .bannerHeading {
+        margin-bottom: var(--spacing-1);
+        font-size: var(--fs-caption);
+    }
+
+    .bannerContainer {
+        height: 560px;
+    }
+
+    .categoryImageStyling {
+        padding: var(--spacing-1);
+    }
+
+    .categoryImgBar_subtitle {
+        font-size: var(--fs-caption-2);
+    }
+
+    .communityBtn {
+        font-size: var(--fs-caption-2);
+        padding: var(--spacing-1);
+    }
+
+    .bannerTitle {
+        letter-spacing: 0.2rem;
+        line-height: 2rem;
+        font-size: var(--fs-sub-title);
+        margin-bottom: var(--spacing-1);
+    }
+
+    .categoryImgBar_title {
+        font-size: var(--fs-caption);
+        font-weight: var(--fw-heading);
+    }
+
+    .communityTitle {
+        font-size: var(--fs-body);
+    }
+
+    .categoryImgBar {
+        margin: var(--spacing-1);
+        padding: 0px;
+    }
+
+    .bannerSubtitle {
+        display: block;
+        font-size: var(--fs-caption);
+        letter-spacing: 0.1rem;
+        margin-bottom: var(--spacing-1);
+    }
+
+    .bannerShopBtn {
+        font-size: var(--fs-caption);
+        margin-top: var(--spacing-1);
+    }
+
+    .bannerBox {
+        margin: var(--spacing-2);
+        text-align: center;
+    }
+
+    .productTitleBox {
+        display: none;
+    }
+
+    .signupContainer {
+        height: 400px;
+    }
+
+    .signupText {
+        text-align: center;
+        font-size: var(--fs-body);
+        margin-bottom: var(--spacing-6);
+    }
+
+    .mailStyling {
+        text-align: center;
+        font-size: var(--fs-caption);
+        margin-top: -8rem;
+        margin-bottom: var(--spacing-2);
+    }
+
+    .mailConatiner {
+        text-align: center;
+        margin-top: var(--spacing-2);
+    }
+
+    .signupDivider {
+        display: none;
+    }
+
+    .title {
+        font-size: var(--fs-body);
+    }
+
+    .productTitleLink {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-title);
+    }
+
+    .productTitleDropdown {
+        display: block;
+        width: 100%;
+    }
+
+    .categoryImgBar_content_container {
+        padding: 0px !important;
+    }
+
+    .product_section_container {
+        margin: 0px;
+    }
+
+    .recycleSubtitle {
+        font-size: var(--fs-caption);
+        padding: 0px var(--spacing-1) 0px var(--spacing-1);
+    }
+
+}
+
+@media screen and (min-width:377px) and (max-width:641px) {
+    .bannerHeading {
+        margin-bottom: var(--spacing-1);
+        letter-spacing: 0.3rem;
+        font-size: var(--fs-body);
+    }
+
+    .categoryImgBar_subtitle {
+        font-size: var(--fs-caption);
+    }
+
+    .bannerContainer {
+        height: 560px;
+    }
+
+    .categoryImgBar_content_container {
+        padding: 0px !important;
+    }
+
+    .bannerTitle {
+        letter-spacing: 0.3rem;
+        line-height: 3rem;
+        font-size: var(--fs-title);
+        font-family: var(--ff-cursive);
+        margin-bottom: var(--spacing-2);
+        text-align: center;
+    }
+
+    .bannerSubtitle {
+        display: block;
+        font-family: var(--ff-sans-serif);
+        font-size: var(--fs-body);
+        letter-spacing: .03em;
+        line-height: 1.6;
+        margin-bottom: var(--spacing-2)
+    }
+
+    .bannerShopBtn {
+        font-size: var(--fs-caption);
+    }
+
+    .productTitleBox {
+        display: none;
+    }
+
+    .signupContainer {
+        height: 400px;
+    }
+
+    .signupText {
+        text-align: center;
+    }
+
+    .mailStyling {
+        text-align: center;
+        font-size: var(--fs-body);
+        margin-top: -8rem;
+        margin-bottom: var(--spacing-2);
+    }
+
+    .mailConatiner {
+        text-align: center;
+        margin-top: var(--spacing-2);
+    }
+
+    .signupDivider {
+        display: none;
+    }
+
+    .mailBoxStyle {
+        width: auto;
+    }
+
+    .title {
+        font-size: var(--fs-sub-title);
+        font-weight: var(--fw-title);
+    }
+
+    .productTitleLink {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-title);
+    }
+
+    .productTitleDropdown {
+        display: block;
+        width: 100%;
+    }
+
+    .product_section_container {
+        margin: var(--spacing-2);
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 1024px) {
+    .text {
+        color: var(--white);
+        font-size: var(--fs-body);
+        font-family: var(--ff-sans-serif);
+        padding-left: var(--spacing-1);
+    }
+
+    .icons {
+        font-size: var(--fs-title);
+    }
+
+    .Shippingicons {
+        transform: scaleX(-1);
+        font-size: var(--fs-title);
+    }
+
+    .Exchangetext {
+        color: var(--white);
+        font-size: var(--fs-body);
+        font-family: var(--ff-sans-serif);
+        padding-left: var(--spacing-2);
+    }
+
+    .productTitleLinkActive {
+        font-size: var(--fs-sub-title);
+    }
+
+    .productTitleLink {
+        font-size: var(--fs-sub-title);
+    }
+
+    .productTitleDropdown {
+        display: block;
+        width: 100%;
+    }
+
+    .productTitleBox {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.text {
+    margin: 0px 0 55px 0;
+    font-weight: var(--fw-title);
+    font-family: var(--ff-sans-serif);
+    text-align: center;
+    font-size: var(--fs-title);
+    font-weight: var(--fw-title);
+    opacity: 0.8;
+    text-transform: lowercase;
+}

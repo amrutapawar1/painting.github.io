@@ -1,0 +1,82 @@
+.checklist_label {
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-subtitle);
+    color: var(--primary);
+    font-size: var(--fs-caption);
+}
+
+.vertical_filters_title {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-title);
+}
+
+.filter_Link {
+    margin-left: var(--spacing-3);
+    font-size: var(--fs-caption);
+    cursor: pointer;
+    color: var(--error);
+}
+
+.vertical_filters_header {
+    font-weight: var(--fw-sm-button);
+    text-transform: uppercase;
+    font-size: var(--fs-caption);
+    margin: 0 0 18px;
+    color: var(--heading-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter_search_filterSearchBox {
+    position: absolute;
+    right: 14px;
+    height: 30px;
+    background-color: var(--light-gray);
+    border-radius: 50%;
+}
+
+.filter_search_inputBox {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: var(--fs-caption);
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    padding: 2px 33px 2px 14px;
+    font-weight: var(--fw-caption);
+    font-family: var(--ff-sans-serif);
+}
+
+.filter_search_expanded {
+    position: absolute;
+    top: var(--spacing-1);
+    right: var(--spacing-1);
+    height: 30px;
+    background-color: var(--light-gray-2);
+    width: 185px;
+    border-radius: 15px;
+    text-align: end;
+}
+
+.filter_search_hidden {
+    display: none;
+}
+
+.filter_search_iconSearch {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    right: var(--spacing-1);
+}
+
+.filter_search_closeSearch {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    right: var(--spacing-1);
+    top: 5px;
+}

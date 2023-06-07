@@ -1,0 +1,23 @@
+:root {
+    --fs-heading: 3rem;
+    --fs-heading-2: 2.5rem;
+    --fs-title: 2rem;
+    --fs-sub-title: 1.5rem;
+    --fs-body: 1rem;
+    --fs-caption: 0.8rem;
+    --fs-caption-1: 0.625rem;
+    --fs-caption-2: 0.5rem;
+    --ff-cursive: cursive;
+    --ff-sans-serif: sans-serif;
+    --ff-monospace: monospace;
+    --fw-bold: bold;
+    --fw-heading: 700;
+    --fw-title: 600;
+    --fw-subtitle: 500;
+    --fw-body: 400;
+    --fw-caption: 300;
+    /* button */
+    --fw-sm-button: 700;
+    --fw-md-button: 600;
+    --fw-lg-button: 500;
+}

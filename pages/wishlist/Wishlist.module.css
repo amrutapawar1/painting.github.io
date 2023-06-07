@@ -1,0 +1,46 @@
+.wishIcon {
+    font-weight: var(--fw-heading);
+    font-size: var(--fs-heading);
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.wishTitle {
+    font-size: var(--fs-title);
+    margin-bottom: var(--spacing-2);
+    font-weight: var(--fw-bold);
+    line-height: 1.428;
+    letter-spacing: 2px;
+    color: var(--primary);
+}
+
+.wishSubtitle {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-subtitle);
+    color: var(--gray-3);
+}
+
+.btn {
+    background-color: var(--primary);
+    margin-top: var(--spacing-2);
+    font-size: var(--fs-body);
+    color: var(--white);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 641px) {
+    .wishIcon {
+        font-size: var(--fs-title);
+    }
+
+    .wishTitle {
+        font-size: var(--fs-subtitle);
+    }
+
+    .wishSubtitle {
+        font-size: var(--fs-caption);
+    }
+
+    .btn {
+        font-size: var(--fs-caption);
+    }
+}

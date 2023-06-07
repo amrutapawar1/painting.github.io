@@ -1,0 +1,34 @@
+.ShowMoreBtn {
+  background-color: var(--primary);
+  color: var(--white);
+  font-family: var(--ff-sans-serif);
+  font-family: var(--ff-monospace);
+  font-size: var(--fs-body);
+  box-shadow: none;
+}
+
+.ShowMoreBtn:hover {
+  border: 1px var(--primary);
+  color: var(--primary);
+  margin-right: var(--spacing-2);
+  background-color: var(--white);
+  font-family: var(--ff-monospace);
+  font-size: var(--fs-body);
+  box-shadow: none;
+}
+
+.communityBtn {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.communityBtn:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.right_icon {
+  margin-top: 2px;
+  text-align: center;
+  color: var(--primary);
+}

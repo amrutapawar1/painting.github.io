@@ -1,0 +1,23 @@
+.text {
+    font-size: var(--fs-body);
+    margin-bottom: var(--spacing-1) !important;
+    font-weight: var(--fw-body);
+    font-family: var(--ff-sans-serif);
+    color: var(--gray-3);
+}
+
+.print {
+    font-weight: var(--fw-title);
+    color: var(--primary);
+    font-size: var(--fs-body);
+    margin-left: var(--spacing-1);
+}
+
+.button {
+    color: var(--gray-2);
+    border: 1px solid var(--light-gray);
+    background-color: var(--white);
+    font-weight: var(--fw-body);
+    font-family: var(--ff-sans-serif);
+    border-radius: unset;
+}

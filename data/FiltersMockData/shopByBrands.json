@@ -1,0 +1,62 @@
+[
+  {
+    "code": "ecraftindia",
+    "label": "eCraftIndia",
+    "qty": 10
+  },
+  {
+    "code": "999Store",
+    "label": "999Store",
+    "qty": 10
+  },
+  {
+    "code": "nestArt",
+    "label": "Nest Art",
+    "qty": 10
+  },
+  {
+    "code": "thearthouse",
+    "label": "The Art House",
+    "qty": 10
+  },
+  {
+    "code": "clasiko",
+    "label": "Clasiko",
+    "qty": 10
+  },
+  {
+    "code": "chumbak",
+    "label": "Chumbak",
+    "qty": 10
+  },
+  {
+    "code": "living",
+    "label": "Living",
+    "qty": 10
+  },
+  {
+    "code": "exoticIndia",
+    "label": "Exotic India",
+    "qty": 10
+  },
+  {
+    "code": "fabindia",
+    "label": "Fabindia",
+    "qty": 10
+  },
+  {
+    "code": "homecenter",
+    "label": "Home Center",
+    "qty": 10
+  },
+  {
+    "code": "indigifts",
+    "label": "Indigifts",
+    "qty": 10
+  },
+  {
+    "code": "wallmantra",
+    "label": "Wallmantra",
+    "qty": 10
+  }
+]

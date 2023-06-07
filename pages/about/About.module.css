@@ -1,0 +1,290 @@
+.branding_section {
+    background-color: var(--white);
+    padding-top: var(--spacing-6);
+    padding-bottom: var(--spacing-6);
+    text-align: center;
+}
+
+.branding_title {
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-title);
+    font-family: var(--ff-sans-serif);
+}
+
+.branding_subtitle {
+    padding-top: var(--spacing-1);
+    color: var(--gray-1);
+    font-family: var(--ff-sans-serif);
+    font-size: var(--fs-sub-title);
+}
+
+.branding_btn1 {
+    color: var(--black);
+    letter-spacing: 3px;
+    font-weight: var(--fw-heading);
+    font-size: var(--fs-caption);
+    font-family: var(--ff-monospace);
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    margin-right: var(--spacing-1);
+    padding: var(--spacing-1) var(--spacing-2);
+}
+
+.branding_btn1:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.branding_btn2 {
+    background-color: var(--primary);
+    letter-spacing: 3px;
+    font-weight: var(--fw-title);
+    font-size: var(--fs-caption);
+    font-family: var(--ff-monospace);
+    color: var(--white);
+    padding: var(--spacing-1) var(--spacing-2);
+}
+
+.branding_btn1:hover {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+.signupContainer {
+    margin-bottom: var(--spacing-6);
+}
+
+.signup {
+    background-color: var(--gray-1);
+    text-align: center;
+    padding: var(--spacing-4) 0px;
+}
+
+.signupText {
+    font-size: var(--fs-title);
+    letter-spacing: 3px;
+    line-height: 45px;
+    color: var(--white);
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-subtitle);
+}
+
+.mailContainer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: var(--spacing-6) 0px;
+}
+
+.mailStyling {
+    color: var(--white);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-heading);
+    font-family: var(--ff-monospace);
+    margin-bottom: var(--spacing-2);
+    letter-spacing: .2rem;
+    border-color: var(--white);
+}
+
+.mailBoxStyle {
+    background: var(--white);
+    border-radius: 5px;
+    width: 80%;
+    border-color: none;
+}
+
+.quote_symbol {
+    color: var(--primary);
+    font-size: 6rem;
+    line-height: 1px;
+}
+
+.feature_img_info {
+    color: var(--gray-1);
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-caption);
+}
+
+.feature_img {
+    width: 100%;
+    padding-top: var(--spacing-6);
+}
+
+.feature_info {
+    padding-left: var(--spacing-6);
+}
+
+.feature_title {
+    font-size: var(--fs-title);
+    font-weight: var(--fw-subtitle);
+}
+
+.feature_subtitle {
+    font-size: var(--fs-body);
+    letter-spacing: 4px;
+    margin-top: var(--spacing-2);
+    text-align: justify;
+}
+
+.provider_container {
+    padding: 2rem 2rem 0rem 6rem;
+}
+
+.feature_btn {
+    color: var(--gray-1);
+    letter-spacing: 3px;
+    font-weight: var(--fw-title);
+    font-size: var(--fs-caption);
+    font-family: var(--ff-sans-serif);
+    background-color: var(--white);
+    margin-top: var(--spacing-2);
+    border-width: thin;
+}
+
+.feature_btn:hover {
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+}
+
+.feature_text {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    text-align: center;
+    font-size: var(--fs-body);
+    letter-spacing: 0;
+    line-height: var(--fs-subtitle);
+    color: var(--black);
+    font-weight: var(--fw-heading);
+    left: 25%;
+}
+
+.feature_img_2 {
+    width: 100%;
+    padding-left: 5rem;
+    height: 500px;
+}
+
+.what_we_do_title1 {
+    color: var(--gray-1);
+    font-size: var(--fs-title);
+    font-weight: var(--fw-subtitle);
+    margin-bottom: var(--spacing-2);
+}
+
+.what_we_do_description1 {
+    color: var(--gray-1);
+    font-size: var(--fs-body);
+    line-height: 1.7rem;
+    letter-spacing: .025em;
+    margin-right: var(--spacing-2);
+    font-family: var(--ff-monospace);
+}
+
+.what_we_do_icon {
+    color: var(--primary);
+    padding: var(--spacing-1);
+    margin-right: var(--spacing-2);
+}
+
+.what_we_do_title {
+    color: var(--black);
+    font-size: var(--fs-body);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+}
+
+.what_we_do_description2 {
+    color: var(--gray-1);
+    font-size: var(--fs-body);
+    margin-bottom: var(--spacing-2);
+    letter-spacing: 0.025em;
+    line-height: 1.5rem;
+    font-family: var(--ff-monospace);
+}
+
+.what_we_do_section2 {
+    display: flex;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+    .branding_title {
+        font-size: var(--fs-sub-title);
+    }
+
+    .branding_subtitle {
+        font-size: var(--fs-caption);
+    }
+
+    .branding_btn1 {
+        padding: var(--spacing-1);
+        font-size: var(--fs-caption-2);
+    }
+
+    .branding_btn2 {
+        padding: var(--spacing-1);
+        font-size: var(--fs-caption-2);
+    }
+
+    .signupText {
+        font-size: var(--fs-sub-title);
+    }
+
+    .feature_img_2 {
+        padding-left: 0px;
+    }
+
+    .provider_container {
+        padding: 2rem;
+    }
+
+    .feature_text {
+        left: 0px;
+        padding: var(--spacing-2);
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:641px) {
+    .branding_title {
+        font-size: var(--fs-title);
+    }
+
+    .branding_subtitle {
+        font-size: var(--fs-body);
+    }
+
+    .branding_btn1 {
+        padding: var(--spacing-1);
+        font-size: var(--fs-caption);
+    }
+
+    .branding_btn2 {
+        padding: var(--spacing-1);
+        font-size: var(--fs-caption);
+    }
+
+    .signupText {
+        font-size: var(--fs-sub-title);
+    }
+
+    .provider_container {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 1024px) {
+    .signupText {
+        font-size: var(--fs-sub-title);
+    }
+
+    .provider_container {
+        padding: 2rem;
+    }
+
+    .feature_img_2 {
+        padding-left: 0px;
+    }
+
+}

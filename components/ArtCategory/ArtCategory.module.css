@@ -1,0 +1,110 @@
+.category_container {
+    padding-left: var(--spacing-2);
+    display: flex;
+}
+
+.category_links {
+    width: auto;
+    padding: 1rem 0;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-subtitle);
+    color: var(--heading-color);
+    letter-spacing: inherit;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-Overflow: ellipsis;
+}
+
+.category_links:hover {
+    color: var(--light-gray);
+}
+
+.image_container {
+    padding: 0 1.5rem;
+}
+
+.text_container {
+    margin-top: var(--spacing-3);
+    text-align: center;
+}
+
+.icon_arrow {
+    user-select: none;
+    width: 25px;
+    height: 10px;
+    opacity: 1;
+}
+
+.category_link_title {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-heading);
+    margin-bottom: var(--spacing-2);
+    color: var(--black);
+    background-color: var(--white);
+    box-shadow: none;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: var(--white);
+}
+
+.category_link_subTitle {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-subtitle);
+    color: var(--gray-3);
+    padding-left: var(--spacing-1);
+}
+
+.category_link_subTitle:hover {
+    color: var(--black);
+}
+
+.img_style {
+    width: 200px;
+    height: 250px;
+    padding: var(--spacing-2);
+}
+
+.paintingContainer {
+    width: 800px;
+}
+
+.heading {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-sans-serif);
+}
+
+.sub_heading {
+    font-size: var(--fs-caption);
+    font-family: var(--ff-sans-serif);
+}
+@media only screen and (min-width: 642px) and (max-width: 1000px) {
+    .category_link_title {
+        font-size: var(--fs-caption);
+    }
+
+    .category_link_subTitle {
+        font-size: var(--fs-caption);
+    }
+
+    .paintingContainer {
+        width: 600px;
+    }
+
+    .img_style {
+        padding: 0rem;
+        width: 160px;
+        height: 200px;
+    }
+}
+
+.categoryContainer {
+    height: 300px;
+    overflow: scroll;
+    background-color: var(--white);
+}

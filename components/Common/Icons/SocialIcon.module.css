@@ -1,0 +1,14 @@
+.icon {
+    padding-top: var(--spacing-2);
+}
+
+.socialLinks {
+    display: 'flex';
+}
+
+.linkIcon {
+    width: 20px;
+    height: 20px;
+    fill: var(--primary);
+    grid-gap: var(--spacing-1);
+}
